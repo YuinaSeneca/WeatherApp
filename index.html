@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Current Weather</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/script.js" defer></script>
+  </head>
+
+  <body>
+    <header>
+      <h1>Current Weather</h1>
+      <p>Select a city to see its current weather.</p>
+    </header>
+
+    <main>
+      <!-- The dropdown changes the location sent to WeatherAPI. -->
+      <section class="weather-search">
+        <label for="location">Choose a location:</label>
+        <select id="location">
+          <option value="Toronto">Toronto</option>
+          <option value="Vancouver">Vancouver</option>
+          <option value="London">London</option>
+          <option value="Tokyo">Tokyo</option>
+        </select>
+      </section>
+
+      <section class="weather-result" id="weather-result">
+        <p>Loading weather...</p>
+      </section>
+    </main>
+
+  </body>
+</html>

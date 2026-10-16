@@ -1,0 +1,92 @@
+/* Simple CSS reset */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #eaf4fb;
+  color: #243447;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.5;
+}
+
+img {
+  max-width: 100%;
+}
+
+header {
+  padding: 40px 20px;
+  background-color: #2878b5;
+  color: white;
+  text-align: center;
+}
+
+header h1 {
+  margin-bottom: 8px;
+  font-size: 2.2rem;
+}
+
+main {
+  width: 90%;
+  max-width: 600px;
+  min-height: 440px;
+  margin: 40px auto;
+}
+
+.weather-search {
+  margin-bottom: 20px;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: white;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #9ab7cc;
+  border-radius: 4px;
+  background-color: white;
+  font-size: 1rem;
+}
+
+.weather-result {
+  min-height: 260px;
+  padding: 30px 20px;
+  border-radius: 8px;
+  background-color: white;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.weather-result h2 {
+  color: #205c87;
+  font-size: 1.8rem;
+}
+
+.weather-result img {
+  width: 96px;
+  margin: 10px auto;
+}
+
+.temperature {
+  margin-bottom: 4px;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.condition {
+  font-size: 1.1rem;
+}
+
+.error {
+  color: #b00020;
+}

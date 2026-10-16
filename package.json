@@ -1,0 +1,14 @@
+{
+  "name": "weatherwise-rest-api",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A basic current weather REST API assignment.",
+  "scripts": {
+    "start": "lite-server",
+    "dev": "lite-server",
+    "check": "node --check js/script.js"
+  },
+  "devDependencies": {
+    "lite-server": "2.6.1"
+  }
+}
